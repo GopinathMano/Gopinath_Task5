@@ -1,0 +1,158 @@
+
+
+2) https://medium.com/@reach2arunprakash/guvi-zen-class-javascript-warm-up-programming-problems-15973c74b87f  ?
+
+1)Write a function called “addFive”.
+Given a number, “addFive” returns 5 added to that number.
+
+ans)  var addFive = (num) => console.log(num + 5);
+
+2)Write a function called “getOpposite”. Given a number, return its opposite
+
+Ans) var getOpposite = (num) => {
+  if (num === 0) console.log(0);
+  else if (num % 1 === 0) {
+    console.log(-1 * num);
+  } else {
+    console.log("-1");
+  }
+};
+
+getOpposite(5);
+
+
+3)Fill in your code that takes an number minutes and converts it to seconds.
+
+Ans) var min = 5;
+function toSeconds(min) {
+  console.log(min * 60);
+}
+var secs = toSeconds(min);
+
+4)Create a function that takes a string and returns it as an integer.
+
+Ans)var mystr = "5";
+function toInteger(mystr) {
+  console.log(+mystr);
+}
+var myint = toInteger(mystr);
+
+5)Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+
+Ans) var myint = 9;
+function nextNumber(myint) {
+  console.log(myint + 1);
+}
+var myNextint = nextNumber(myint);
+
+6)Create a function that takes an array and returns the first element.
+
+Ans) var arr = [1, 2, 3];
+function getFirstElement(arr) {
+  console.log(arr[0]);
+}
+var data = getFirstElement(arr);
+
+7) Convert Hours into Seconds  Write a function that converts hours into seconds.
+
+Ans) var arr = 2;
+function hourToSeconds(arr) {
+  console.log(60 * 60 * arr);
+}
+var data = hourToSeconds(arr);
+
+8)Find the Perimeter of a Rectangle
+Create a function that takes height and width and finds the perimeter of a rectangle.
+
+Ans) function findPerimeter(num1, num2) {
+  console.log(2 * num1 + 2 * num2);
+}
+var peri = findPerimeter(6, 7);
+
+9) Less Than 100?
+Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+Ans) function lessThan100(num1, num2) {
+  let sum = num1 + num2;
+  if (sum < 100) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+
+var res = lessThan100(222, 15);
+
+10) There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+Ans)  function remainder(num1, num2) {
+  console.log(num1 % num2);
+}
+var res = remainder(-9, 45);
+
+11) The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+
+Ans)
+function CountAnimals(tur, horse, pigs) {
+  let ans = 2 * tur + 4 * horse + 4 * pigs;
+  console.log(ans);
+}
+var legs = CountAnimals(2, 3, 5);
+
+12) Frames Per Second
+Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+Ans)
+function frames(num1, num2) {
+  console.log(num1 * 60 * num2);
+}
+var fps = frames(10, 25);
+
+13) Check if an Integer is Divisible By Five
+Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+Ans)
+function divisibleByFive(num1) {
+  if (num1 % 5 === 0) {
+    console.log("True");
+  } else {
+    console.log("false");
+  }
+}
+var divisible = divisibleByFive(6);
+
+14)  Write a function called “isEven”.
+Given a number, “isEven” returns whether it is even.
+
+Ans)
+
+unction isEven(num) {
+  if (num % 2 === 0) {
+    console.log("true");
+  } else if (num % 2 !== 0) {
+    console.log("false");
+  }
+}
+var even = isEven("5as");
+
+15) Write a function called “areBothOdd”.
+Given 2 numbers, “areBothOdd” returns whether or not both of the given numbers are odd.
+
+Ans)
+function areBothOdd(num1, num2) {
+  if (num1 == 0 && num2 === 0) {
+    console.log("false");
+  } else if (num1 % 2 !== 0 && num2 % 2 !== 0) {
+    console.log("True");
+  } else {
+    console.log("false");
+  }
+}
+
+16)Write a function called “getFullName”.
+Given a first and a last name, “getFullName” returns a single string with the given first and last names separated by a single space.
+
+
+Ans))
+
+
